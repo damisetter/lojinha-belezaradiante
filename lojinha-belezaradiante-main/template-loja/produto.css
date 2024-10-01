@@ -1,0 +1,54 @@
+body {
+    background-color: lightslategray; /* Fundo claro */
+    color: white; 
+}
+
+header {
+    background-color:  rgb(98, 111, 125); /* Fundo escuro */
+    color: white; 
+    padding: 15px;
+    border-radius: 20px;
+    border-bottom: 3px solid rgb(68, 78, 88); /* Borda inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.box {
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+}
+button {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Mão ao passar o mouse */
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+a {
+    color: white; /* Azul padrão */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+form {
+    background-color: rgb(98, 111, 125); /* Fundo claro */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px; /* Largura máxima */
+}
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: white; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza texto */
+}

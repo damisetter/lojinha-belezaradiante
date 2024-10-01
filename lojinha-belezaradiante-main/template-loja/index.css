@@ -1,0 +1,62 @@
+body {
+    background-color: lightslategray; /* Fundo claro */
+    color: white; 
+}
+
+header {
+    background-color:  rgb(98, 111, 125); /* Fundo escuro */
+    border-radius: 20px;
+    color: white; 
+    padding: 15px;
+    border-bottom: 5px solid rgb(68, 78, 88); /* Borda inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.box {
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+}
+button {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Mão ao passar o mouse */
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+a {
+    color: white; /* Azul padrão */
+    text-decoration: none; /* Remove o sublinhado */
+}
+a:hover {/*mudar o estilo do mouse quandopassa por cima de um elemento */
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+main {
+    display: grid; /* Usar grid para layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Colunas responsivas */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px; /* Espaçamento interno */
+    background-color:rgb(147, 169, 194); /* Fundo claro */
+    border-radius: 10px;
+}
+aside {
+    background-color: rgb(98, 111, 125); /* Fundo claro */
+    border: 1px solid rgba(0, 0, 0, 0.3); /* Borda suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: white; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza texto */
+}

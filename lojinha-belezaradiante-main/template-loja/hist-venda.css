@@ -1,0 +1,40 @@
+body {
+    background-color: lightslategray; /* Fundo claro */
+    color: white; 
+}
+
+header {
+    background-color:  rgb(98, 111, 125); /* Fundo escuro */
+    border-radius: 20px;
+    color: white; 
+    padding: 15px;
+    border-bottom: 5px solid rgb(68, 78, 88); /* Borda inferior */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+
+table {
+    width: 100%; /* Ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove espaçamento entre células */
+    margin: 20px 0; /* Margem vertical */
+}
+
+th, td {
+    padding: 10px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento à esquerda */
+    border-bottom: 1px solid #ddd; /* Borda inferior nas células */
+}
+a {
+    color: white; /* Azul padrão */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+footer {
+    background-color: #333; /* Fundo escuro */
+    color: white; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza texto */
+}
